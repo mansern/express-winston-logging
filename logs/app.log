@@ -1,0 +1,23 @@
+[8/21/2022, 7:05:59 AM] info: Server is listening on port 8888
+[8/21/2022, 7:06:03 AM] info: ::1 - GET /hello HTTP/1.1 304 - - 4.006 ms
+[8/21/2022, 7:06:09 AM] info: ::1 - GET /bye HTTP/1.1 304 - - 1.167 ms
+[8/21/2022, 7:11:06 AM] info: Server is listening on port 8888
+[8/21/2022, 7:11:07 AM] info: ::1 - GET /bye HTTP/1.1 304 - - 4.510 ms
+[8/21/2022, 10:15:55 AM] info: Server is listening on port 8888
+[8/21/2022, 10:16:10 AM] info: ::1 - GET /hello HTTP/1.1 304 - - 4.248 ms
+[8/21/2022, 10:19:15 AM] info: Server is listening on port 8000
+[8/21/2022, 10:19:21 AM] info: Server is listening on port 8000
+[8/21/2022, 10:19:28 AM] info: ::1 - GET /hello HTTP/1.1 200 13 - 4.395 ms
+[8/21/2022, 10:19:28 AM] info: Application error:
+{
+  "status": 404
+}
+[8/21/2022, 10:19:28 AM] info: ::1 - GET /favicon.ico HTTP/1.1 404 28 - 1.351 ms
+[8/21/2022, 10:19:53 AM] info: Server is listening on port 8000
+[8/21/2022, 10:59:15 AM] info: Server is listening on port 8000
+[8/21/2022, 11:03:39 AM] info: Server is listening on port 8000
+[8/21/2022, 11:03:56 AM] info: ::1 - GET /hello HTTP/1.1 304 - - 4.984 ms
+[8/21/2022, 11:03:58 AM] info: ::1 - GET /bye HTTP/1.1 200 15 - 1.193 ms
+[8/21/2022, 11:12:15 AM] info: Server is listening on port 8000
+[8/21/2022, 11:12:31 AM] info: ::1 - GET /bye HTTP/1.1 304 - - 3.715 ms
+[8/21/2022, 11:12:34 AM] info: ::1 - GET /hello HTTP/1.1 304 - - 0.943 ms

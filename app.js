@@ -35,7 +35,7 @@ app.use((_req, _res, next) => {
   // Set 404 error if something is not found otherwise
   const err = new Error("Not Found");
   err.status = 404;
-  err.message = "Something went wrong here :(";
+  err.message = "Oops, you are no where :(";
   next(err);
 });
 app.use((err, _req, res, _next) => {

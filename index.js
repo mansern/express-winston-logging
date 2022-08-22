@@ -1,10 +1,3 @@
-/**
- * @name index.js
- * @description The entry point of the API server.
- *
- * @author dbarenholz
- * @version 1.0.0
- */
 const { createServer } = require("http");
 const readline = require("readline");
 const rl = readline.createInterface(process.stdin);
